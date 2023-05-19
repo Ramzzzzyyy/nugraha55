@@ -1,0 +1,86 @@
+ .u-section-1 {
+  background-image: url("images/lovely-landscape-wallpaper-preview.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 784px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-scale: 1;
+  margin: 21px auto 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 733px;
+  height: 733px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: -12px auto 0 -26px;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-scale: 1;
+  font-size: 1.875rem;
+  margin: -552px 51px 60px 595px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 646px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+    margin-left: 283px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 495px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 217px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 178px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 540px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: -359px;
+    margin-left: 163px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: -159px;
+    margin-left: 103px;
+  }
+}
